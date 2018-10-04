@@ -9,7 +9,7 @@ import { Page2Component } from 'src/app/page2/page2.component';
 const appRoutes: Routes = [
   {'path': 'page1', 'component' : Page1Component},
   {'path': 'page2', 'component' : Page2Component},
-  {path: '', redirectTo: '/page1', pathMatch: 'full'}
+  {path: '', component : Page1Component}
 ];
 
 @NgModule({
