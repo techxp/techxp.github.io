@@ -14,7 +14,9 @@ const appRoutes: Routes = [
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Page1Component,
+    Page2Component
   ],
   imports: [
     BrowserModule,
